@@ -1,0 +1,205 @@
+.HOME {
+  background-color: #F0F1FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.HOME .overlap-wrapper {
+  background-color: #f0f1ff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.HOME .overlap {
+  position: relative;
+  width: 2106px;
+  height: 1266px;
+  left: -99px;
+}
+
+.HOME .overlap-group {
+  position: absolute;
+  width: 1955px;
+  height: 1179px;
+  top: 0;
+  left: 0;
+}
+
+.HOME .circle {
+  position: absolute;
+  width: 590px;
+  height: 524px;
+  top: 655px;
+  left: 0;
+  border-radius: 295px / 262px;
+  background: linear-gradient(
+    180deg,
+    rgba(252, 165, 241, 1) 0%,
+    rgba(205, 181, 255, 1) 100%
+  );
+}
+
+.HOME .img {
+  position: absolute;
+  width: 364px;
+  height: 320px;
+  top: 514px;
+  left: 890px;
+}
+
+.HOME .div {
+  position: absolute;
+  width: 185px;
+  height: 163px;
+  top: 395px;
+  left: 189px;
+  border-radius: 92.5px / 81.5px;
+  background: linear-gradient(
+    180deg,
+    rgba(252, 165, 241, 1) 0%,
+    rgba(205, 181, 255, 1) 100%
+  );
+}
+
+.HOME .gambar-mic {
+  width: 1021px;
+  height: 979px;
+  top: 101px;
+  left: 99px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.HOME .text-wrapper {
+  position: absolute;
+  width: 300px;
+  top: 34px;
+  left: 145px;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.HOME .menu-bar {
+  position: absolute;
+  width: 896px;
+  height: 89px;
+  top: 57px;
+  left: 1059px;
+  background-color: #d5b2fc;
+  border-radius: 30px;
+}
+
+.HOME .oval-menu {
+  position: absolute;
+  width: 142px;
+  height: 119px;
+  top: 0;
+  left: 1114px;
+}
+
+.HOME .bulat-menu {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 35px;
+  left: 1149px;
+  background-color: #d5b2fc;
+  border-radius: 37.5px;
+}
+
+.HOME .home {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 51px;
+  left: 1166px;
+  object-fit: cover;
+}
+
+.HOME .profile {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 74px;
+  left: 1379px;
+  object-fit: cover;
+}
+
+.HOME .pen {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 74px;
+  left: 1593px;
+  object-fit: cover;
+}
+
+.HOME .contact {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 74px;
+  left: 1805px;
+  object-fit: cover;
+}
+
+.HOME .circle-2 {
+  position: absolute;
+  width: 466px;
+  height: 432px;
+  top: 834px;
+  left: 1640px;
+  border-radius: 233px / 216px;
+  background: linear-gradient(
+    180deg,
+    rgba(252, 165, 241, 1) 0%,
+    rgba(205, 181, 255, 1) 100%
+  );
+}
+
+.HOME .overlap-group-2 {
+  position: absolute;
+  width: 741px;
+  height: 306px;
+  top: 247px;
+  left: 1180px;
+}
+
+.HOME .brush-stroke {
+  position: absolute;
+  width: 741px;
+  height: 163px;
+  top: 47px;
+  left: 0;
+  object-fit: cover;
+}
+
+.HOME .gambar-hello {
+  width: 496px;
+  height: 306px;
+  top: 0;
+  left: 197px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.HOME .p {
+  position: absolute;
+  width: 524px;
+  top: 566px;
+  left: 1386px;
+  font-family: "Caveat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

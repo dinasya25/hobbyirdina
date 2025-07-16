@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irdina Aisyah - Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Irdina Aisyah</h1>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-container">
+                <a href="index.html" class="nav-btn">
+                    <img src="img/home icon.png" alt="Home" class="nav-icon">
+                </a>
+                <a href="profile.html" class="nav-btn">
+                    <img src="img/profile.png" alt="Profile" class="nav-icon">
+                </a>
+                <a href="sketches.html" class="nav-btn">
+                    <img src="img/pen.png" alt="Sketches" class="nav-icon">
+                </a>
+                <a href="contact.html" class="nav-btn active">
+                    <img src="img/contact.png" alt="Contact" class="nav-icon">
+                </a>
+            </div>
+        </nav>
+
+        <!-- Contact Page Content -->
+        <main class="page-content">
+            <div class="contact-container">
+                <h1 class="page-title">Contact Me</h1>
+
+                <div class="contact-content">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="contact-intro">
+                            <div class="contact-decorative-circle">
+                                <img src="img/bulat.png" alt="decorative circle" class="decorative-circle-img">
+                            </div>
+                            <h2 class="contact-title">Get In Touch</h2>
+                            <p class="contact-description">
+                                I'd love to hear from you, whether you have any questions about my karaoke studio dream, 
+                                want to collaborate, or just want to say hello, feel free to reach out!
+                            </p>
+                        </div>
+
+                        <div class="contact-methods">
+                            <a href="mailto:irdinash@gmail.com" class="contact-item" target="_blank">
+                                <img src="img/email2.png" alt="email" class="contact-icon">
+                                <span class="contact-text">irdinash@gmail.com</span>
+                            </a>
+
+                            <a href="https://wa.me/60178707097" class="contact-item" target="_blank">
+                                <img src="img/call-removebg-preview.png" alt="phone" class="contact-icon">
+                                <span class="contact-text">+60 17-8707097</span>
+                            </a>
+
+                            <a href="https://instagram.com/d1nxsyx._" class="contact-item" target="_blank">
+								<img src="img/insta-removebg-preview.png" alt="ig" class="contact-icon">
+                                <span class="contact-text">@d1nxsyx._</span>
+                            </a>
+
+                            <a href="https://twitter.com/lm25lr" class="contact-item" target="_blank">
+                             <img src="img/X2-removebg-preview.png" alt="twitter" class="contact-icon">
+                                <span class="contact-text">@Im25Ir</span>
+                            </a>
+
+                            <a href="https://t.me/dinaaisy" class="contact-item" target="_blank">
+							<img src="img/tele-removebg-preview.png" alt="telegram" class="contact-icon">
+                                <span class="contact-text">@dinaaisy</span>
+                            </a>
+
+                            <a href="https://discord.com/users/dinaaisy_" class="contact-item" target="_blank">
+                                <img src="img/discord1-removebg-preview.png" alt="phone" class="contact-icon">
+                                <span class="contact-text">dinaaisy_</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2 class="form-title">Send Message</h2>
+                        <form class="contact-form" onsubmit="submitForm(event)">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" class="form-input" placeholder="Message Subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" rows="5" class="form-textarea" placeholder="Your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="form-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="social-section">
+                    <div class="social-container">
+                        <h3 class="social-title">Follow My Journey</h3>
+                        <p class="social-description">
+                            Stay updated on my karaoke studio dream and music journey!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>COPYRIGHT BY IRDINA AISYAH - 2025</p>
+        </footer>
+    </div>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
